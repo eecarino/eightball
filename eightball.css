@@ -1,0 +1,53 @@
+body {
+  background-color: #330236;
+  font-family: 'UnifrakturCook', cursive;
+}
+
+p {
+  color: #fff
+}
+
+
+
+
+
+/*
+
+=============
+ball
+=============
+*/
+
+#outer-circle {
+    background: #000000;
+    border-radius: 50%;
+    height:500px;
+    width:500px;
+
+}
+#inner-circle {
+    position: absolute;
+    background: #170644;
+    border-radius: 50%;
+    height:300px;
+    width:300px;
+    margin: 0px 0px 0px 100px;
+    z-index: 1;
+}
+
+/*
+=====================
+content
+=====================
+*/
+
+#content {
+  position: relative;
+  margin: -420px 0px 0px 0px;
+  z-index: 2;
+  text-align: center;
+}
+
+#ball {
+  color: #ffffff;
+}

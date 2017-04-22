@@ -1,0 +1,40 @@
+<html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Magic 8Ball</title>
+  <link href="eightball.css" rel="stylesheet" type="text/css" />
+</head>
+
+
+
+<body>
+  <h1 id="ball"><center>Magic 8Ball</center></h1>
+
+
+
+
+  <div id="circle"><center>
+    <div id="outer-circle">
+        <div id="inner-circle">
+            <span id="inside-content"></span>
+        </div>
+    </div>
+    </center>
+  </div>
+
+  <div id="content">
+    <input id="question" placeholder="Ask Me Anything!" type="text"></input></br>
+    <div id="buttons">
+      <button id="fortune" onclick="askQuestion()">Yes or No</button>
+      <button id="clear" onclick="clearAll()">Clear</button>
+    </div>
+    <p id="message">
+    </p>
+  </div>
+
+
+<script src="eightball.js"></script>
+</body>
+</html>
